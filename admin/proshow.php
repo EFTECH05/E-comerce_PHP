@@ -54,9 +54,6 @@ include('adminpartials/head.php');
           <img src="../<?php echo $final['picture'] ?>" alt="No File" style="height:300px; width:300px">
 
 
-
-
-
         </div>
 
       

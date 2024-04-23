@@ -1,5 +1,6 @@
 <?php
 
+// Mr skofild said here that code is important for adding file in database.
 include("../partials/connect.php");
 $name=$_POST['name'];
 $price=$_POST['price'];
@@ -11,7 +12,7 @@ if (isset($_POST['submit'])) {
 $file_path='uploads/'.basename($_FILES['file']['name']);
 $file_name=$_FILES['file']['name'];
 $file_tmp=$_FILES['file']['tmp_name'];
-$file_store= __DIR__ ."uploads/".$file_name;
+$file_store= "../uploads/".$file_name;
 
 $sql="INSERT INTO products(name,price,picture,description,category_id) VALUES('$name','$price','$file_path','$description','$category')";
 

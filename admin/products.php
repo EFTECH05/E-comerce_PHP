@@ -49,7 +49,7 @@
                 </div>
                 <div class="form-group">
                   <label for="picture">File input</label>
-                  <input type="file" id="file" name="file"> <!-- id="picture"-->
+                  <input type="file" accept="image/*" id="file" name="file"> <!-- id="picture", accept="image/*"-->
                 </div>
                 <div class="form-group">
                   <label for="description">Description</label>

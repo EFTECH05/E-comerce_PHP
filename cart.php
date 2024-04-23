@@ -5,9 +5,8 @@ session_start();
 include ("partials/head.php");
 ?>
 <body class="animsition">
-	<?php
-	include ("partials/header.php");
-
+<?php
+include ("partials/header.php");
 ?>
 
 	<!-- breadcrumb -->
